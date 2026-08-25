@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://codeberg.org/caniko/rs-modde/releases/download/0.7.0/modde-0.7.0-x86_64-windows.zip",
+      "url": "https://github.com/caniko/rs-modde/releases/download/0.7.0/modde-0.7.0-x86_64-windows.zip",
       "hash": "0000000000000000000000000000000000000000000000000000000000000000",
       "bin": ["modde", "modde-ui"]
     }
