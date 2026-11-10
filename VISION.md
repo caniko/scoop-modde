@@ -1,7 +1,7 @@
 # scoop-modde vision
 
 This repository is a single-manifest Scoop bucket for `modde`, the cross-platform
-game mod manager published from the `rs-modde` project. The only artifact here
+game mod manager published from the `modde-rs` project. The only artifact here
 is `bucket/modde.json`, which points Scoop at the Windows release archive and
 declares the `modde` and `modde-ui` binaries. It is a packaging repository, not
 a codebase.
@@ -17,7 +17,7 @@ upgrade without downloading and unpacking by hand.
 
 - `bucket/modde.json`: version, description, homepage, license, and the 64-bit
   Windows archive with its `bin` list.
-- The manifests are JSON and are the whole deliverable; `nix/treefmt.nix` exists
+- The manifest is JSON and is the whole deliverable; `nix/treefmt.nix` exists
   only so the tree is formatted with prettier like the rest of the fleet.
 
 ## Direction
@@ -28,6 +28,6 @@ real archive.
 
 ## Place in the fleet
 
-No canix consumer was found. `modde` itself is built in `rs-modde`; this bucket
+No canix consumer was found. `modde` itself is built in `modde-rs`; this bucket
 is one of its distribution channels alongside the project's own release
 artifacts.
